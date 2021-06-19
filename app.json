@@ -1,16 +1,16 @@
 {
     "name": "Auto Filter Bot",
-    "description": "Kind of a filter bot where you don't have to add filters manually.",
-    "logo": "https://telegra.ph/file/71aaa621508cd696ab538.jpg",
+    "description": "A filter bot where you don't have to add filters manually.",
+    "logo": "https://cdn5.telesco.pe/file/QSB9NkRGUTM9DmsD8IVo1yc3omgR6Tqs-huDQIiils2yLCKEhmlCWV43anA9a5MWwvI-TZ3UqZ5OM09ijgsUEY1ZvnogYqfjRGpawSOAy7mssn3SoF4TnlQ7_xY4G4fNLeDuOemzw82NiPY4NuBu-D1lHiha7wS9RKqDFjQTKt6-Vwb2GMS8GYi8kxXdGnb1QZjd-2XdhlG5xebqEU7XIVXFVXWzQfINiz_vq7jwSPImxy6oYerZBXvgVMDGDReUHFFFTnuimEfOzYXOM1bT7_TLzylLpQdhRa1SocXZm9IpLPc-X2PM_X0rcp2CtcymbxmE6dGGOk7WXaYitQWs_g.jpg",
     "keywords": [
         "Auto",
         "Filter",
         "Telegram Bot",
         "TroJanzHEX"
     ],
-    "website": "https://TroJanzHEX.me",
-    "repository": "https://github.com/TroJanzHEX/Auto-Filter-Bot-V2",
-    "success_url": "https://telegram.dog/TroJanzHEX",
+    "website": "https://t.me/VlDE0S",
+    "repository": "https://github.com/halkatmanus/Auto-Filter-Bot-V2",
+    "success_url": "https://telegram.dog/RequestVideos",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
@@ -46,7 +46,7 @@
         },
         "VID_SEARCH": {
             "description": "Should bot search for video files in channels ( Give 'yes' or 'no' )",
-            "value": "no"
+            "value": "yes"
         },
         "MUSIC_SEARCH": {
             "description": "Should bot search for music files in channels ( Give 'yes' or 'no' )",
