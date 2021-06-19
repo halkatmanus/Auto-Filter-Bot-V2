@@ -3,28 +3,9 @@
 <p align="center">
   <a href="https://www.python.org">
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
-
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/halkatmanus/Auto-Filter-Bot-V2/stargazers">
-    <img src="https://img.shields.io/github/stars/TroJanzHEX/Auto-Filter-Bot-V2?style=social">
-
-  </a>
-  
-  <a href="https://github.com/halkatmanus/Auto-Filter-Bot-V2/fork">
-    <img src="https://img.shields.io/github/forks/halkatmanus/Auto-Filter-Bot-V2?label=Fork&style=social">
-
-  </a>  
 </p>
 ㅤㅤㅤㅤㅤ  
-[![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat)](https://github.com/halkatmanus/Auto-Filter-Bot-V2/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/halkatmanus/Auto-Filter-Bot-V2)
 
-
-
-
-
-#### You can call this as an Auto Filter Bot if you like :D
 #### This is Version 2 of [Auto Filter Bot](https://github.com/halkatmanus/Auto-Filter-Bot)
 #### Bot simply search for the files from provided channel according to given query and gives link to those files as buttons!
 
