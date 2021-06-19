@@ -1,15 +1,12 @@
 class script(object):
 
 
-    START_MSG = """ <b>Hi {}
+    START_MSG = """ <b>🖐🏻Hey {}! I am Maushi.
 
-🖐🏻Hey there! I am Maushi.
-
-I can get videos for you. But you have to join my group @RequestVideos
-
-Bot gives button link to files in connected channels on query !
-
-For more click <i>help</i></b>"""
+I can find Movies & TV Shows for you. 
+Join my group @RequestVideos and ask for videos.
+Bot gives button link to files if available !
+</b>"""
 
 
     HELP_MSG = """<b>How to use the bot??</b>
@@ -18,7 +15,6 @@ For more click <i>help</i></b>"""
 * Add bot to your group with admin rights.
 * Add bot to channels which you want to link with <b>all admin rights</b>!
 </i>
-
 <b>Bot Commands - Works in Group only</b>
 (You need to be a Auth User in order to use these commands)
 
@@ -51,7 +47,8 @@ No need add each filter again! Bot will automatically search for your files and 
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a>
 
+⭕️<b>Donate :</b> <a href='https://paypal.me/ssraut'>PayPal</a>
 
 """
