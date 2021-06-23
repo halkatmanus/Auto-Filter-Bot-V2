@@ -98,7 +98,7 @@ async def addchannel(client: Bot, message: Message):
         return
 
     intmsg = await message.reply_text(
-        "<i>Please wait while I'm adding your channel files to DB"
+        "<i>Please wait while I'm adding your channel files to DataBase"
         "\n\nIt may take some time if you have more files in channel!!"
         "\nDon't give any other commands now!</i>"
     )
@@ -110,7 +110,7 @@ async def addchannel(client: Bot, message: Message):
 
     already_added = await ifexists(channel_id, group_id)
     if already_added:
-        await intmsg.edit_text("Channel already added to db!")
+        await intmsg.edit_text("Channel already added to database!")
         return
 
     docs = []
@@ -252,7 +252,7 @@ async def deletechannelfilters(client: Bot, message: Message):
 
     already_added = await ifexists(channel_id, group_id)
     if not already_added:
-        await intmsg.edit_text("That channel is not currently added in db!")
+        await intmsg.edit_text("That channel is not currently added in database!")
         return
 
     delete_files = await deletefiles(channel_id, channel_name, group_id, group_name)
@@ -317,7 +317,7 @@ async def stats(client: Bot, message: Message):
     group_id = message.chat.id
     group_name = message.chat.title
 
-    stats = f"Stats for Auto Filter Bot in {group_name}\n\n<b>Connected channels ;</b>"
+    stats = f"Stats for Maushi in {group_name}\n\n<b>Connected channels ;</b>"
 
     chdetails = await channeldetails(group_id)
     if chdetails:
